@@ -51,7 +51,7 @@ $dbconfig['db_server'] = 'localhost';
 $dbconfig['db_port'] = ':3306';
 $dbconfig['db_username'] = 'root';
 $dbconfig['db_password'] = '';
-$dbconfig['db_name'] = 'documentdesigner';
+$dbconfig['db_name'] = 'docmentdesigner';
 $dbconfig['db_type'] = 'mysql';
 $dbconfig['db_status'] = 'true';
 // TODO: test if port is empty

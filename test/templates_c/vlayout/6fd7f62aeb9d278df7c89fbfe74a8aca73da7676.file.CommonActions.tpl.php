@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2018-06-21 14:50:14
+<?php /* Smarty version Smarty-3.1.7, created on 2018-06-21 15:10:41
          compiled from "C:\xampp\htdocs\crmprojects\vtiger6.5\includes\runtime/../../layouts/vlayout\modules\Vtiger\CommonActions.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:256345b2b9f06ab3a72-69040769%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:89705b2ba3d167c009-91917801%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '256345b2b9f06ab3a72-69040769',
+  'nocache_hash' => '89705b2ba3d167c009-91917801',
   'function' => 
   array (
   ),
@@ -35,9 +35,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_5b2b9f06b4ad5',
+  'unifunc' => 'content_5b2ba3d1777a2',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b2b9f06b4ad5')) {function content_5b2b9f06b4ad5($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b2ba3d1777a2')) {function content_5b2ba3d1777a2($_smarty_tpl) {?>
 
 <?php $_smarty_tpl->tpl_vars["announcement"] = new Smarty_variable($_smarty_tpl->tpl_vars['ANNOUNCEMENT']->value->get('announcement'), null, 0);?><?php $_smarty_tpl->tpl_vars['count'] = new Smarty_variable(0, null, 0);?><?php $_smarty_tpl->tpl_vars["dateFormat"] = new Smarty_variable($_smarty_tpl->tpl_vars['USER_MODEL']->value->get('date_format'), null, 0);?><div class="navbar commonActionsContainer noprint"><div class="actionsContainer row-fluid clearfix"><div class="span2"><span class="companyLogo"><img src="<?php echo $_smarty_tpl->tpl_vars['COMPANY_LOGO']->value->get('imagepath');?>
 " title="<?php echo $_smarty_tpl->tpl_vars['COMPANY_LOGO']->value->get('title');?>
